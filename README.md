@@ -70,7 +70,7 @@ project-root/
 1. Click **Use this template** and clone your new repo.
 2. Open `index.html`. Note the script tag:
    ```html
-   <script type="module" src="./js/main.js"></script>
+   <script type="module" src="/js/main.js"></script>
    ```
 3. Build your sections inside `js/layouts/sections/`, one folder per section.
 4. Don't need SCSS? Delete the `scss/` folder and link Tailwind or plain CSS directly in `index.html`.
@@ -130,7 +130,7 @@ Loading `funcs.js` replaces the browser's native `window.alert` with `customAler
 
 ---
 
-## Icons (`iconObj.js`)
+## Icons (`iconsObj.js`)
 
 All icons live in one plain object, attached to `window.icons`. Add new icons directly to this file — no registration function, no build step:
 
